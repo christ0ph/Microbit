@@ -7,6 +7,13 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
         kakeboks = 7
         basic.showNumber(kakeboks)
     }
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 5; index++) {
@@ -26,6 +33,13 @@ input.onButtonPressed(Button.A, function () {
             . # . # .
             `)
     }
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonPressed(Button.B, function () {
     music.playTone(262, music.beat(BeatFraction.Half))

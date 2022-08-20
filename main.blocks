@@ -28,4 +28,10 @@
         # # # # # 
         # # # # # 
         # # . # #
-        `</field></block></statement></block></xml>
+        `</field><next><block type="device_pause" id="D5{}#9i7B8abK6.e+n,p"><value name="pause"><shadow type="timePicker" id="N{[PS$6~{IQ]F[[-9qkF"><field name="ms">5000</field></shadow></value><next><block type="device_pause" id="pLB.@zAMC7UkGwImyVos"><value name="pause"><shadow type="timePicker" id="^t(|5{h?N@%MD4b4BES3"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="3kY@Zsp,AEG,{ljj=b57"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block></xml>

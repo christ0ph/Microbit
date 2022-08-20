@@ -58,7 +58,13 @@
         . . . . . 
         . # . . . 
         . # . . #
-        `</field></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id=",(|5)kGWVf^Le]MfjW+3"><field name="LEDS">`
+        `</field><next><block type="device_show_leds" id="MmXM%/n@esY,38k~_SsU"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id=",(|5)kGWVf^Le]MfjW+3"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 

@@ -129,6 +129,13 @@ input.onSound(DetectedSound.Loud, function () {
             . # . . .
             . # . . #
             `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
     } else {
         basic.showLeds(`
             . . . . .

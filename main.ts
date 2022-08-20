@@ -1,4 +1,5 @@
 let kakeboks = 0
+let lightsOn = false
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     for (let index = 0; index < 5; index++) {
         kakeboks = 1
@@ -82,4 +83,59 @@ input.onButtonPressed(Button.B, function () {
     music.playTone(294, music.beat(BeatFraction.Half))
     music.playTone(294, music.beat(BeatFraction.Half))
     music.playTone(262, music.beat(BeatFraction.Double))
+})
+input.onSound(DetectedSound.Loud, function () {
+    lightsOn = !(lightsOn)
+    if (lightsOn) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . # . . .
+            . # # . #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . # . . .
+            . # . . #
+            . # # . #
+            . # # # #
+            `)
+        basic.showLeds(`
+            . # . . .
+            . # . . #
+            . # # . #
+            . # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . # . . .
+            . # . . #
+            . # # . #
+            . # # # #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . # . . .
+            . # # . #
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . # . . .
+            . # . . #
+            `)
+    } else {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
 })

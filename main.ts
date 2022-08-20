@@ -41,6 +41,15 @@ input.onButtonPressed(Button.A, function () {
         . . . . .
         `)
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        . . . . .
+        # . # . #
+        # # # # #
+        # # # # #
+        # # . # #
+        `)
+})
 input.onButtonPressed(Button.B, function () {
     music.playTone(262, music.beat(BeatFraction.Half))
     music.playTone(294, music.beat(BeatFraction.Half))
